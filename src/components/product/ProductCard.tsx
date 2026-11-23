@@ -97,7 +97,9 @@ function Badge({ children, tone = "plain" }: { children: React.ReactNode; tone?:
   return (
     <span
       className={`rounded-full px-2.5 py-1 text-[10px] tracking-[0.18em] uppercase ${
-        tone === "accent" ? "bg-[#8E5644] text-[#F9F6F0]" : "bg-[#F9F6F0]/90 text-[#362C27]"
+        tone === "accent"
+          ? "bg-[#6E2E22] text-[#FAF3F0] dark:bg-[#8E5644] dark:text-[#F9F6F0]"
+          : "bg-[#EBCDC5]/92 text-[#2B1F1D] dark:bg-[#F9F6F0]/90 dark:text-[#362C27]"
       }`}
     >
       {children}
