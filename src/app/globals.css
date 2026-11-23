@@ -2,8 +2,8 @@
 
 /* ==========================================================================
    ISABELLA STUDIO — Design tokens
-   Modo claro: Paleta Opción 1 "Lujo orgánico y cálido"
-   Modo oscuro: derivado del logo dorado sobre negro
+   Modo claro: Fondo rosa empolvado cálido (#EBCDC5) con contrastes WCAG AA/AAA
+   Modo oscuro: derivado del logo dorado sobre negro (sin cambios)
    Contrastes verificados WCAG AA (ver docs/ESTRUCTURA.md)
    ========================================================================== */
 
@@ -11,19 +11,19 @@
 
 :root,
 [data-theme="light"] {
-  --bg: #f9f6f0;            /* marfil */
-  --surface: #ffffff;
-  --surface-2: #efe5dc;     /* beige suave */
-  --text: #362c27;          /* chocolate — 12.6:1 sobre marfil */
-  --text-muted: #6b6058;    /* 5.7:1 */
-  --accent: #c88a75;        /* terracota — solo decorativo */
-  --accent-text: #8e5644;   /* cobre profundo — 5.5:1, precios y enlaces */
-  --btn-bg: #362c27;
-  --btn-text: #f9f6f0;
-  --border: #e6d7cd;
-  --media: #f1e9e1;         /* fondo de fotos de producto */
-  --overlay: rgba(54, 44, 39, 0.38);
-  --shadow: 0 18px 50px -24px rgba(54, 44, 39, 0.35);
+  --bg: #ebcdc5;            /* rosa empolvado cálido (color de fondo cliente) */
+  --surface: #faf3f0;       /* porcelana cálida — tarjetas, footer y campos */
+  --surface-2: #e1bcb3;     /* rosa arcilla — bandas secundarias y hover */
+  --text: #2b1f1d;          /* cacao profundo — 10.7:1 sobre #EBCDC5 */
+  --text-muted: #57433f;    /* cacao suave — 6.2:1 sobre #EBCDC5, 5.3:1 sobre surface-2 */
+  --accent: #9c5242;        /* terracota rosado — 3.8:1 UI, emblema e íconos */
+  --accent-text: #6e2e22;   /* borgoña terracota — 6.8:1 sobre #EBCDC5, precios y enlaces */
+  --btn-bg: #2b1f1d;
+  --btn-text: #faf3f0;      /* 14.5:1 */
+  --border: #cfa69c;        /* línea rosa antiguo */
+  --media: #f6ece8;         /* fondo luminoso de fotos de producto */
+  --overlay: rgba(43, 31, 29, 0.42);
+  --shadow: 0 18px 50px -24px rgba(43, 31, 29, 0.32);
   color-scheme: light;
 }
 
