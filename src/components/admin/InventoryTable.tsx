@@ -100,7 +100,7 @@ export function InventoryTable({ products }: { products: Product[] }) {
                 </td>
                 <td className="px-4 py-3 text-center text-muted">{v.minStock}</td>
                 <td className="px-4 py-3">
-                  <span className={`rounded-full px-2.5 py-1 text-[11px] ${level === "ok" ? "bg-[#6E9B74]/15 text-[#4E7A55] dark:text-[#9CC7A2]" : level === "low" ? "bg-accent/20 text-accent-ink" : "bg-muted/20 text-muted"}`}>
+                  <span className={`rounded-full px-2.5 py-1 text-[11px] ${level === "ok" ? "bg-[#6E9B74]/15 text-[#285932] dark:text-[#9CC7A2]" : level === "low" ? "bg-accent/20 text-accent-ink" : "bg-muted/20 text-muted"}`}>
                     {level === "ok" ? "OK" : level === "low" ? "Reponer" : "Agotado"}
                   </span>
                 </td>
